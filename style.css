@@ -171,6 +171,17 @@ a.book-table:focus {
 	font-size: 1.6rem;
 	text-transform: capitalize;
 	font-style: italic;
+	opacity: 0;
+	animation: landingText 1.5s ease-in-out forwards 6.5s;
+}
+
+@keyframes landingText {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 @keyframes landingHeader {
