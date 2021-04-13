@@ -59,6 +59,7 @@ nav {
 	font-size: 1rem;
 	font-weight: 300;
 	padding-bottom: 1rem;
+	border-bottom: 2px solid transparent;
 	transition: all 200ms ease-in-out;
 }
 
@@ -80,7 +81,7 @@ a.book-table:focus {
 	color: #000;
 	background-color: orange;
 	border: 2px solid transparent;
-	transform: scale(0.92);
+	transform: scale(0.97);
 }
 
 /* LANDING */
