@@ -168,20 +168,19 @@ a.book-table:focus {
 }
 
 .landing-text {
-	color: #bbb;
+	color: transparent;
 	font-size: 1.6rem;
 	text-transform: capitalize;
 	font-style: italic;
-	opacity: 0;
 	animation: landingText 1.5s ease-in-out forwards 6.5s;
 }
 
 @keyframes landingText {
 	from {
-		opacity: 0;
+		color: transparent;
 	}
 	to {
-		opacity: 1;
+		color: #bbb;
 	}
 }
 
@@ -298,7 +297,6 @@ a.book-table:focus {
 
 @media screen and (max-width: 500px) {
 	svg {
-		fill: #fff;
 		height: 20%;
 	}
 }
